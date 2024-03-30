@@ -37,11 +37,17 @@ function negation_operator() {
     var x =10;
     document.getElementById("Unary_operator").innerHTML = -x;
 }
-
+//JavaScript function to perform increment
+function Increaser() {
 var X = 5;
 X++;
-document.getElementById("result_1").innerHTML="Result for X:"+ X;
+document.getElementById("increaser").innerHTML= + X++;
+}
 
+function Decreaser() {
 var X = 5.25;
 X--;
-document.write(X)
+document.getElementById("decreaser").innerHTML= + X--;
+}
+// Return random number
+window.alert(Math.random() * 100);
